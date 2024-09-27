@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(name: "XcodeProj",
                 dependencies: [
-                    .product(name: "PathKit", package: "PathKit"),
+                    .product(name: "PathKit", package: "PathKit-musl"),
                     .product(name: "AEXML", package: "AEXML"),
                 ],
                 swiftSettings: [
